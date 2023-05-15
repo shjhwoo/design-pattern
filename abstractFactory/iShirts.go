@@ -1,4 +1,4 @@
-package main
+package abstractFactory
 
 type IShirt interface {
 	setLogo(logo string)

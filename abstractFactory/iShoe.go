@@ -1,4 +1,4 @@
-package main
+package abstractFactory
 
 type IShoe interface {
 	setLogo(logo string)
