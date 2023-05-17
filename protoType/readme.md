@@ -46,5 +46,6 @@
 싱글턴 패턴으로 구현될 수 있다.
 상속에 기반하지 않기 때문에 단점이 없지만, 클론된 객체에 대한 복잡한 초기화 과정을 필요로 한다
 팩토리 메서드는 상속에 기반하지만 초기화 과정이 필요없다
+(이 부분이 이해가 아직 안감)
 
 All prototype classes should have a common interface that makes it possible to copy objects even if their concrete classes are unknown. Prototype objects can produce full copies since objects of the same class can access each other’s private fields.
