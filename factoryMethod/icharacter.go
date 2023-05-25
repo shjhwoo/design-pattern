@@ -1,6 +1,6 @@
 package factoryMethod
 
-type IGun interface {
+type ICharacter interface {
 	setName(name string)
 	setPower(power int)
 	getName() string
